@@ -24,8 +24,8 @@ with open("birthdays.csv") as file:
                 matter = ""
                 for l in letter_list:
                     matter += l
-                email = "test8acc8.sai@gmail.com"
-                password = "8888saich"
+                email = "____your_email____"
+                password = "___your_password___"
 
                 with smtplib.SMTP("smtp.gmail.com") as connection:
                     connection.starttls()
